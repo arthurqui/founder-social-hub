@@ -1,10 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { MapPin, Link2, Calendar, Users, Building, SidebarTrigger } from "lucide-react";
+import { SidebarTrigger } from "@/components/ui/sidebar";
+import { MapPin, Link2, Calendar, Users, Building } from "lucide-react";
 
 const Profile = () => {
   const userPosts = [
